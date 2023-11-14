@@ -19,3 +19,9 @@ Simple linear regressions were performed for each of the features followed by a 
 
 ![image](https://github.com/SanchitaMondal/Molecular_Solubility/assets/102673516/128acf96-1b39-41fd-b774-a0e5c5d01c3c)
 
+### Discussion and Conclusions
+The multiple linear regression with all four features yielded an R-squared score of 0.686 which is similar to the results obtained by Delaney, even with a subset of the molecules used.
+
+![image](https://github.com/SanchitaMondal/Molecular_Solubility/assets/102673516/22457550-870f-4c48-aad8-aa365e95e1ce)
+
+
