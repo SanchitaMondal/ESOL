@@ -3,8 +3,8 @@
 Sanchita Mondal
 
 ## Table of Contents
-  -  Background(#Background)
-  -  Data Understanding(#Data Understanding)
+  -  Background
+  -  Data Understanding
   -  Model Training and Evaluation
   -  Discussion and Conclusions
 
@@ -13,3 +13,6 @@ This study presents a regression technique for determining a compound's aqueous 
 
 ### Data Understanding
 ESOL is a small dataset consisting of water solubility data for 1128 compounds. The dataset has been used to train models that estimate solubility directly from the extracted features from the chemical structures (as encoded in SMILES strings). This CSV file was obtained from GLambard's GitHub at [https://github.com/GLambard/Molecules_Dataset_Collection/blob/master/originals/ESOL_delaney-processed.csv]. 
+
+### Model Training and Evaluation
+Simple linear regressions were performed for each of the features followed by a multiple linear regression using all four features. Visualization of results with matplotlib along with code for creating the models can be found in 'Source code/ETSC_Molecular_Solubility.ipynb`. Linear regressions were implemented using the sklearn.linear_model.LinearRegression estimator, and the sklearn library will be used for generating other potential model candidates.
